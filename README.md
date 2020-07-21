@@ -1,2 +1,3 @@
-# boat-buddy
-Boat rate evaluation tool for DS
+# Boat Buddy
+Single page boat rate evaluation tool for DS
+-----
