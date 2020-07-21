@@ -1,0 +1,82 @@
+*:focus {
+    outline: none;
+    border-bottom: 1px solid lightgreen;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 900px;
+    border-top: 1px solid black;
+}
+
+.emoji-title {
+    text-align: center;
+}
+
+.shipwreck {
+
+    transform: rotate(-180deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-180deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-180deg);
+  
+    /* IE */
+    -ms-transform: rotate(-180deg);
+  
+    /* Opera */
+    -o-transform: rotate(-180deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
+
+.vertical-spacer-01 {
+    height: 3rem;
+}
+
+.generic-input {
+    margin: auto;
+    display: block;
+    font-size: 30;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border: 1px solid lightgreen;
+}
+
+.input-title {
+    font-family: Verdana, "Geneva", sans-serif;
+}
+
+#result {
+    text-align: center;
+    font-family: Verdana, "Geneva", sans-serif;
+    font-size: 40;
+    color: green;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgrey;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgrey;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgrey;
+  }
+
+  .error {
+      border: 1px solid red;
+  }
